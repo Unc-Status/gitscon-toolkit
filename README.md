@@ -1,7 +1,7 @@
 # gitscon-toolkit
 
 gitscon-toolkit is a toolkit that is used for C and C++ programs to make development and programming easier. 
-with the gitscon-toolkit you can use git type functions write within your programs source code. 
+with the gitscon-toolkit you can use git type functions right within your programs source code!
 
 # gitscon-toolkit gui supports
 
