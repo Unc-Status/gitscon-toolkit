@@ -16,3 +16,6 @@ gitscon-toolkit also supports functions and commands for the following gui frame
 # version
 gitscon-toolkit version : 1.0
 gitscon-toolkit year : 2025 Release
+
+# important
+gitscon-toolkit is still in development and not finished.
