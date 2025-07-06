@@ -4,6 +4,7 @@
 //gitscon.h
 //gitscon.h copyright ( c ) UncStatus++
 //gitscon-toolkit july 2025
+//praise be to the lord for my insparation and code
 
 //main stuff...
 int out(){ return 0; };
