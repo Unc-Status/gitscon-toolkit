@@ -44,7 +44,7 @@ const char* GITSCON_NAME = "Git Scon 1.0...\n";
 
 //check if the project has <gtk/gtk.h> included
 inline bool gitscon_prj_chck_gtk_included(const char* prjfcode){
-      if( prjfcode = "#include <gtk/gtk.h>" || "#include "gtk/gtk.h"){
+      if( prjfcode = "#include <gtk/gtk.h>" || "#include "gtk/gtk.h"\n"){
           printf("%c" + "//", "%c", GITSCON_NAME + "/t", GITSCON_VERSION);
          return true;
       }
