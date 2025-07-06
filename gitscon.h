@@ -5,6 +5,13 @@
 //gitscon.h copyright ( c ) UncStatus++
 //gitscon-toolkit july 2025
 
+//main stuff...
+int out(){ return 0; };
+//end main stuff...
+
+//decl
+#define __decl_void NULL
+
 #define GITSCON_VERSION "1.0"
 
 //will move eventually...
@@ -13,6 +20,7 @@ void sconload(void *dat);
 void cd(const char * directory);
 void mkdir(const char * directory){ directory = new const char; };
 
+//git scon info
 const char* GITSCON_NAME = "Git Scon 1.0...\n";
 
 #define gscon_mkdir ( mkdir("%c") )
