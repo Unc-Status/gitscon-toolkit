@@ -43,15 +43,26 @@ const char* GITSCON_NAME = "Git Scon 1.0...\n";
 #define GTK_VERSION_FRR "4.0"
 
 //check if the project has <gtk/gtk.h> included
-inline bool gitscon_prj_chck_gtk_included(const char* prjfcode){
-      if( prjfcode = "#include <gtk/gtk.h>" || "#include "gtk/gtk.h"\n"){
+inline bool gitscon_prj_chck_gtk_included(const char* prjfcode()const){
+      if( prjfcode() = "#include <gtk/gtk.h>" || "#include "gtk/gtk.h""){
           printf("%c" + "//", "%c", GITSCON_NAME + "/t", GITSCON_VERSION);
          return true;
       }
+      
       else {
         return false;
       }
+      
   //out();
+}
+
+//commands tree for git scon console app itself
+unsigned char g_sCommandTree[]{
+  "--gitscon-mkdir", "--gitscon-cd",
+  "--new-file", "--open-file",
+  "--chng-fileext", "--run",
+  "--exe", "--application",
+  "--cab", "--build-prjmake";
 }
 
 
