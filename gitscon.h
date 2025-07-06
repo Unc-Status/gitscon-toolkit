@@ -25,7 +25,7 @@ const char* GITSCON_NAME = "Git Scon 1.0...\n";
 //
 
 #define decl_gtk "Gtk"
-#define decl_gtkplusplus "Gtk++"
+#define decl_gtkplusplus "Gtk+"
 
 //gtk versions list
 #define GTK_VERSION_F "1.0"
