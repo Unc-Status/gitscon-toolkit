@@ -24,6 +24,14 @@ const char* GITSCON_NAME = "Git Scon 1.0...\n";
 //
 //
 
+#define decl_gtk "Gtk"
+
+//gtk versions list
+#define GTK_VERSION_F "1.0"
+#define GTK_VERSION_S "2.0"
+#define GTK_VERSION_T "3.0"
+#define GTK_VERSION_FRR "4.0"
+
 //check if the project has <gtk/gtk.h> included
 inline bool gitscon_prj_chck_gtk_included(const char* prjfcode){
       if( prjfcode = "#include <gtk/gtk.h>" ){
