@@ -3,6 +3,7 @@
 
 //gitscon.h
 //gitscon.h copyright ( c ) UncStatus++
+//gitscon-toolkit july 2025
 
 #define GITSCON_VERSION "1.0"
 
