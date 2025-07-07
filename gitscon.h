@@ -42,10 +42,12 @@ const char* GITSCON_NAME = "Git Scon 1.0...\n";
 #define GTK_VERSION_T "3.0"
 #define GTK_VERSION_FRR "4.0"
 
+const char* GTK_INCLUDE_FILE_BUFFER = "gtk/gtk.h";
+unsigned INC_QUOTE_SYMBOL = ";
 //check if the project has <gtk/gtk.h> included
 inline bool gitscon_prj_chck_gtk_included(const char* prjfcode()const){
-      if( prjfcode() = "#include <gtk/gtk.h>" || "#include "gtk/gtk.h""){
-          printf("%c" + "//", "%c", GITSCON_NAME + "/t", GITSCON_VERSION);
+      if( prjfcode() = "#include <gtk/gtk.h>" || "#include\t %c, %c, %c\n", INC_QUOTE_SYMBOL, GTK_INCLUDE_FILE_BUFFER, INC_QUOTE_SYMBOL){
+           printf("%c" + "//", "%c", GITSCON_NAME + "/t", GITSCON_VERSION);
          return true;
       }
       
